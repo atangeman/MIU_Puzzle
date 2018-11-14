@@ -9,6 +9,11 @@ import java.security.InvalidKeyException;
 
 import processing.core.PApplet;
 
+/**
+ * Class to run main instance of PApplet using the Processing-2 framework.
+ * 
+ * @author ATangeman
+ */
 public class Main extends PApplet {
 
 	private char letter;
@@ -17,6 +22,10 @@ public class Main extends PApplet {
 	ArrayList<TheoremCollection> miuCollection;
 	TheoremCollection theoremCollection;
 
+	/**
+	 * Main method to initialize applet
+	 * @param args runtime command parameters to pass.
+	 */
 	public static void main(String[] args) {
 		PApplet.main("UsingProcessing");
 	}
